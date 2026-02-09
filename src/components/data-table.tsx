@@ -44,7 +44,7 @@ export function DataTable<TData extends { [key: string]: any }>({
   const [pageSize, setPageSize] = React.useState(5);
 
   const filteredData = React.useMemo(() => {
-    return data.filter((row) =>
+    return (data || []).filter((row) =>
       Object.values(row).some(
         (val) =>
           typeof val === 'string' &&
