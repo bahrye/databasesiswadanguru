@@ -1,0 +1,67 @@
+import type { Student, Teacher } from './types';
+
+export const mockStudents: Student[] = [
+  {
+    id: 'std-001',
+    nik: '3273241234567890',
+    name: 'Budi Santoso',
+    email: 'budi.santoso@example.com',
+    gender: 'Laki-laki',
+    schoolId: 'sekolah-a',
+    avatarUrl: 'https://picsum.photos/seed/1/100/100',
+    type: 'student',
+    nisn: '0012345678',
+    grade: '12-A',
+  },
+  {
+    id: 'std-002',
+    nik: '3273241234567891',
+    name: 'Siti Aminah',
+    email: 'siti.aminah@example.com',
+    gender: 'Perempuan',
+    schoolId: 'sekolah-a',
+    avatarUrl: 'https://picsum.photos/seed/2/100/100',
+    type: 'student',
+    nisn: '0012345679',
+    grade: '11-B',
+  },
+  {
+    id: 'std-003',
+    nik: '3273241234567892',
+    name: 'Ahmad Dahlan',
+    email: 'ahmad.dahlan@example.com',
+    gender: 'Laki-laki',
+    schoolId: 'sekolah-a',
+    avatarUrl: 'https://picsum.photos/seed/3/100/100',
+    type: 'student',
+    nisn: '0012345680',
+    grade: '10-C',
+  },
+];
+
+export const mockTeachers: Teacher[] = [
+  {
+    id: 'tch-001',
+    nik: '3172051234567800',
+    name: 'Dr. Anisa Fitriani',
+    email: 'anisa.fitriani@example.com',
+    gender: 'Perempuan',
+    schoolId: 'sekolah-a',
+    avatarUrl: 'https://picsum.photos/seed/4/100/100',
+    type: 'teacher',
+    nip: '198505122010012001',
+    subject: 'Matematika',
+  },
+  {
+    id: 'tch-002',
+    nik: '3172051234567801',
+    name: 'Prof. Eko Prasetyo',
+    email: 'eko.prasetyo@example.com',
+    gender: 'Laki-laki',
+    schoolId: 'sekolah-a',
+    avatarUrl: 'https://picsum.photos/seed/5/100/100',
+    type: 'teacher',
+    nip: '197811102005011002',
+    subject: 'Bahasa Indonesia',
+  },
+];
